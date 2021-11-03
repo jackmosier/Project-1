@@ -117,7 +117,7 @@ line 1105 'hosts: ["10.1.0.4:9200"]'
 
 line 1806 'host: "10.1.0.4:5601"'
 
-Run the playbook filebeat.yml located in the /etc/ansible/roles/ directory inside the ansible container, then navigate to Kibana using your web browser by inputing the URL http://52.165.174.133:/app/kibana#/ which would be the ELK-Server public IP, specifying port '5601' to check that the installation worked as expected.
+Run the playbook filebeat.yml located in the /etc/ansible/roles/ directory inside the ansible container, then navigate to Kibana using your web browser by inputing the URL http://20.115.166.166:/app/kibana#/ which would be the ELK-Server public IP, specifying port '5601' to check that the installation worked as expected.
 
 Copy the metricbeat-config.yml file to /etc/ansible/ directory inside the ansible container.
 
@@ -127,4 +127,4 @@ line 62 'host: "10.1.0.4:5601"'
 
 line 95 'hosts: ["10.1.0.4:9200"]'
 
-Run the playbook, metricbeat-playbook.yml inside the /etc/ansible/roles directory, and navigate to Kibana on your web browser using the URL http://52.165.174.133:/app/kibana#/ ELK-Server public IP, specifying port '5601' to check that the installation worked as expected.
+Run the playbook, metricbeat-playbook.yml inside the /etc/ansible/roles directory, and navigate to Kibana on your web browser using the URL http://20.115.166.166:/app/kibana#/ ELK-Server public IP, specifying port '5601' to check that the installation worked as expected.
