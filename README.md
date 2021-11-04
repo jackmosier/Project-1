@@ -130,4 +130,5 @@ line 95 'hosts: ["10.1.0.4:9200"]'
 Run the playbook, metricbeat-playbook.yml inside the /etc/ansible/roles directory, and navigate to Kibana on your web browser using the URL http://20.115.166.166:/app/kibana#/ ELK-Server public IP, specifying port '5601' to check that the installation worked as expected.
 
 - https://github.com/jackmosier/Project-1/issues/4 (kibana.png)
+- https://github.com/jackmosier/Project-1/issues/3 (metricbeat.pmg)
 - 
