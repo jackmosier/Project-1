@@ -131,4 +131,4 @@ Run the playbook, metricbeat-playbook.yml inside the /etc/ansible/roles director
 
 - https://github.com/jackmosier/Project-1/issues/4 (kibana.png)
 - https://github.com/jackmosier/Project-1/issues/3 (metricbeat.pmg)
-- 
+- https://github.com/jackmosier/Project-1/issues/2 (filebeat.png)
